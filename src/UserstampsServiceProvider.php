@@ -1,6 +1,6 @@
 <?php
 
-namespace Hrshadhin\Userstamps;
+namespace SamuraiGeeks\Userstamps;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Schema\Blueprint;

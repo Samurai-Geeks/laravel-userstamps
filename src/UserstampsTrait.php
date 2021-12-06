@@ -1,8 +1,8 @@
 <?php
 
-namespace Hrshadhin\Userstamps;
+namespace SamuraiGeeks\Userstamps;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method   string getTable()
  * @method   void observe($observer)
  * @method   BelongsTo belongsTo($related, $foreignKey = null, $otherKey = null, $relation = null)
- * @package  Hrshadhin\Userstamps
+ * @package  SamuraiGeeks\Userstamps
  */
 
 trait UserstampsTrait
